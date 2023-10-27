@@ -1,4 +1,24 @@
-Example 4: This project shows how we can connect PostgreSQL with flask and show SELECT results in a HTML table.
+## HW3
+This is a Flask application that connects to a PostgreSQL database and provides two functional requirements
+
+**Group Members**:
+  Darian O'Dirling, 
+Jethro Libutan
+
+**Update Basket A**
+
+When a user accesses the Flask server with /api/update_basket_a, it inserts a new row (5, 'Cherry') into the basket_a table in the database.
+        It will display "Success!" if the insertion is successful, or an error message from PostgreSQL if there is a problem.
+
+**Unique Fruits**
+
+When a user accesses the Flask server with /api/unique, it displays unique fruits from the basket_a and basket_b tables in an HTML table.
+In case of any errors from PostgreSQL, it shows the error message on the browser.
+
+**Access the Application**    
+
+Open your web browser and go to http://127.0.0.1:5000/api/update_basket_a to insert a new row into basket_a.
+Access http://127.0.0.1:5000/api/unique to see unique fruits in an HTML table from both basket_a and basket_b.
 
 ## Quick Start
 ### Local Test Setup
